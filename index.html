@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals API Try</title>
+
+    <!-- Bootstrap linked -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-primary bg-opacity-75 text-white">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bolder fs-3 text-white" href="#">The Food Meals</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn fw-bold" href="#">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn fw-bold">Contuct Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="food-details" class="container">
+
+        </section>
+
+
+        <section class="container mt-5">
+            <div style="background-color: #e6d8d8;" class="shadow p-4 text-center mb-5">
+                <h1 class="fw-bold text-decoration-underline" style="color: #e65100;">THE
+                    FOOD MEALS</h1>
+            </div>
+            <div class="text-center d-flex mb-5">
+                <input id="search-field" class="form-control me-2 shadow placeholder: placeholder-glow;" type="search"
+                    placeholder="Search">
+                <button onclick="searchButton()" class="btn btn-success w-25">Search</button>
+            </div>
+            <div>
+                <div id="food-container" class="row row-cols-1 row-cols-md-3 g-4">
+                    <!--Dynamic Food Container -->
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Script linked -->
+    <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+    <script src="Script/index.js"></script>
+</body>
+
+</html>
